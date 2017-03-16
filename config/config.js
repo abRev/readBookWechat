@@ -9,7 +9,7 @@ var config = {
       name: 'readbook'
     },
     port: process.env.PORT || 1234,
-    db: 'mongodb://localhost/readbook-dec'
+    db: 'mongodb://abang:123456@ds054619.mlab.com:54619/readbook'
   },
 
   test: {
