@@ -1,0 +1,7 @@
+extends ../layout
+
+block content
+	h1="用户列表"
+	each user in users
+		a(href= action+"/?openid="+user)= user
+		br

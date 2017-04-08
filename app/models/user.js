@@ -5,3 +5,5 @@ var UserSchema = new  Schema({
 	createAt:{type:Date,default:Date.now},
 	
 })
+
+mongoose.model('User',UserSchema);
